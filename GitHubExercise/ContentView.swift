@@ -16,6 +16,8 @@ struct ContentView: View {
                 .imageScale(.large)
                 .foregroundStyle(.red)
             Text("Version 1.0.1")
+                .font(.largeTitle)
+                .fontWeight(.black)
         }
         .padding()
     }
